@@ -22,7 +22,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+    --background-image: url(https:// .github.io/images/sapphire.jpg);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -72,7 +72,7 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+    --home-icon: url(https:// .github.io/icons/discord.svg);
     --home-position: center;
     --home-size: 40px;
     --popout-color: rgba(0, 0, 0, 0.8);
@@ -493,13 +493,13 @@ body,button,input,select,textarea,::placeholder{
     order:1
 }
 .typeWindows-2-g3UY>.wordmark-2u86JB:before{
-    content:"ClearVision";
+    content:" ";
     color:rgba(255,255,255,.7);
     font-size:14px;
     text-shadow:0 0 3px #000
 }
 .typeWindows-2-g3UY>.wordmark-2u86JB:after{
-    content:"v6.3.0";
+    content:"v ";
     color:rgba(255,255,255,.3);
     font-family:var(--code-font);
     font-size:10px
@@ -555,7 +555,7 @@ body,button,input,select,textarea,::placeholder{
     text-shadow:0 0 3px
 }
 .typeMacOS-3V4xXE:after{
-    content:"6.3.0";
+    content:" ";
     color:rgba(255,255,255,.3)
 }
 .tabBar-1_P75h{
@@ -1058,7 +1058,93 @@ body,button,input,select,textarea,::placeholder{
     background:rgba(255,255,255,.95);
     color:var(--hover-color)
 }
-
+.theme-dark .container-YkUktl{
+    position:relative;
+    background:rgba(0,0,0,0);
+    margin-bottom:10px
+}
+.theme-dark .container-YkUktl:before,.theme-dark .container-YkUktl:after{
+    bottom:-8px;
+    position:absolute;
+    color:rgba(255,255,255,.3);
+    font-size:11px;
+    font-weight:700;
+    transition:all .5s ease-in-out
+}
+.theme-dark .container-YkUktl:before{
+    content:" ";
+    right:50%;
+    text-align:right;
+    transform:translateX(50%)
+}
+.theme-dark .container-YkUktl:after{
+    content:"v ";
+    left:50%;
+    text-align:left;
+    opacity:0;
+    transform:translateX(50%) rotateX(90deg)
+}
+.theme-dark .container-YkUktl:hover:before{
+    margin-right:1px;
+    transform:none
+}
+.theme-dark .container-YkUktl:hover:after{
+    margin-left:1px;
+    opacity:1;
+    transform:none
+}
+.theme-dark .container-YkUktl .withTagAsButton-OsgQ9L,.theme-dark .container-YkUktl .withTagless-10ooWt{
+    min-width:calc(100% - 100px);
+    width:auto
+}
+.theme-dark .container-YkUktl .withTagAsButton-OsgQ9L:hover,.theme-dark .container-YkUktl .withTagless-10ooWt:hover{
+    background-color:rgba(0,0,0,.3);
+    color:#fff
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD{
+    width:32px !important;
+    height:32px !important;
+    transition:all .15s ease-in-out
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD:after{
+    content:"Status";
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    color:#fff;
+    font-size:5px;
+    font-weight:700;
+    text-align:center;
+    line-height:32px;
+    text-transform:uppercase;
+    opacity:0;
+    transition:all .15s ease-in-out;
+    pointer-events:none
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD foreignObject{
+    transition:all .15s ease-in-out
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD:hover{
+    width:40px !important;
+    height:40px !important;
+    opacity:1
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD:hover:after{
+    font-size:10px;
+    line-height:40px;
+    opacity:1
+}
+.theme-dark .container-YkUktl .avatar-1EWyVD:hover foreignObject{
+    opacity:.5
+}
+.theme-dark .container-YkUktl .title-338goq{
+    color:#fff
+}
+.theme-dark .container-YkUktl .subtext-2HDqJ7{
+    color:rgba(255,255,255,.3)
+}
 .container-1zzFcN{
     border-color:rgba(0,0,0,0);
     background:rgba(0,0,0,0)
@@ -3344,38 +3430,38 @@ textarea::-webkit-scrollbar{
     height:30px;
     box-sizing:border-box;
     padding-left:30px;
-    background-image:url(https://clearvision.github.io/icons/file.svg);
+    background-image:url(https:// .github.io/icons/file.svg);
     background-position:center;
     background-size:100%;
     background-repeat:no-repeat;
     opacity:.5
 }
 :not(.embedWrapper-1MtIDg)>[title=unknown].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_upload.svg)
+    background-image:url(https:// .github.io/icons/file_upload.svg)
 }
 [title=document].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_document.svg)
+    background-image:url(https:// .github.io/icons/file_document.svg)
 }
 [title=archive].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_archive.svg)
+    background-image:url(https:// .github.io/icons/file_archive.svg)
 }
 [title=code].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_code.svg)
+    background-image:url(https:// .github.io/icons/file_code.svg)
 }
 [title=webcode].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_webcode.svg)
+    background-image:url(https:// .github.io/icons/file_webcode.svg)
 }
 [title=ai].icon-1KCy88,[title=ps].icon-1KCy88,[title=photoshop].icon-1KCy88,[title=sketch].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_image.svg)
+    background-image:url(https:// .github.io/icons/file_image.svg)
 }
 [title=ae].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_video.svg)
+    background-image:url(https:// .github.io/icons/file_video.svg)
 }
 [title=spreadsheet].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_table.svg)
+    background-image:url(https:// .github.io/icons/file_table.svg)
 }
 [title=acrobat].icon-1KCy88{
-    background-image:url(https://clearvision.github.io/icons/file_pdf.svg)
+    background-image:url(https:// .github.io/icons/file_pdf.svg)
 }
 .fileNameLink-1odyIc{
     color:var(--main-color);
@@ -4216,7 +4302,7 @@ code{
     content:"";
     width:36px;
     height:36px;
-    background:url(https://clearvision.github.io/icons/file_music.svg) center/100% no-repeat;
+    background:url(https:// .github.io/icons/file_music.svg) center/100% no-repeat;
     opacity:.5
 }
 .audioMetadata-1Hrt8T .metadataSize-2A2s1T{
@@ -4960,7 +5046,7 @@ code{
     transform:scale(0.95)
 }
 .connectedAccountVerifiedIcon-3EPFPC{
-    background:url(https://clearvision.github.io/icons/verified.svg) center/18px no-repeat;
+    background:url(https:// .github.io/icons/verified.svg) center/18px no-repeat;
     opacity:.5;
     z-index:1
 }
@@ -4971,7 +5057,7 @@ code{
     display:none
 }
 .connectedAccountOpenIcon-3i81Tz{
-    background:url(https://clearvision.github.io/icons/popout.svg) center/18px no-repeat;
+    background:url(https:// .github.io/icons/popout.svg) center/18px no-repeat;
     opacity:.3;
     transition:all .15s ease-in-out;
     transform:none
@@ -6936,162 +7022,162 @@ code{
     width:24px
 }
 .sidebar-nqHbhN [aria-controls=my-account-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/person.svg)
+    background-image:url(https:// .github.io/icons/person.svg)
 }
 .sidebar-nqHbhN [aria-controls=profile-customization-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/user_profile.svg)
+    background-image:url(https:// .github.io/icons/user_profile.svg)
 }
 .sidebar-nqHbhN [aria-controls="privacy-&-safety-tab"].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/security.svg)
+    background-image:url(https:// .github.io/icons/security.svg)
 }
 .sidebar-nqHbhN [aria-controls=authorized-apps-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/apps.svg)
+    background-image:url(https:// .github.io/icons/apps.svg)
 }
 .sidebar-nqHbhN [aria-controls=sessions-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/devices.svg)
+    background-image:url(https:// .github.io/icons/devices.svg)
 }
 .sidebar-nqHbhN [aria-controls=connections-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/link.svg)
+    background-image:url(https:// .github.io/icons/link.svg)
 }
 .sidebar-nqHbhN [aria-controls=friend-requests-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/person_add.svg)
+    background-image:url(https:// .github.io/icons/person_add.svg)
 }
 .sidebar-nqHbhN [aria-controls=discord-nitro-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/nitro.svg)
+    background-image:url(https:// .github.io/icons/nitro.svg)
 }
 .sidebar-nqHbhN [aria-controls=nitro-server-boost-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/server_boost.svg)
+    background-image:url(https:// .github.io/icons/server_boost.svg)
 }
 .sidebar-nqHbhN [aria-controls=subscriptions-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/subscriptions.svg)
+    background-image:url(https:// .github.io/icons/subscriptions.svg)
 }
 .sidebar-nqHbhN [aria-controls=library-inventory-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/gift.svg)
+    background-image:url(https:// .github.io/icons/gift.svg)
 }
 .sidebar-nqHbhN [aria-controls=billing-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/payment.svg)
+    background-image:url(https:// .github.io/icons/payment.svg)
 }
 .sidebar-nqHbhN [aria-controls=appearance-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/camera.svg)
+    background-image:url(https:// .github.io/icons/camera.svg)
 }
 .sidebar-nqHbhN [aria-controls=accessibility-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/accessibility.svg)
+    background-image:url(https:// .github.io/icons/accessibility.svg)
 }
 .sidebar-nqHbhN [aria-controls="voice-&-video-tab"].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/mic.svg)
+    background-image:url(https:// .github.io/icons/mic.svg)
 }
 .sidebar-nqHbhN [aria-controls="text-&-images-tab"].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/chat.svg)
+    background-image:url(https:// .github.io/icons/chat.svg)
 }
 .sidebar-nqHbhN [aria-controls=notifications-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/notifications.svg)
+    background-image:url(https:// .github.io/icons/notifications.svg)
 }
 .sidebar-nqHbhN [aria-controls=keybinds-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/keyboard.svg)
+    background-image:url(https:// .github.io/icons/keyboard.svg)
 }
 .sidebar-nqHbhN [aria-controls=language-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/language.svg)
+    background-image:url(https:// .github.io/icons/language.svg)
 }
 .sidebar-nqHbhN [aria-controls=windows-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/windows.svg)
+    background-image:url(https:// .github.io/icons/windows.svg)
 }
 .sidebar-nqHbhN [aria-controls=linux-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/linux.svg)
+    background-image:url(https:// .github.io/icons/linux.svg)
 }
 .sidebar-nqHbhN [aria-controls=streamer-mode-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/videocam.svg)
+    background-image:url(https:// .github.io/icons/videocam.svg)
 }
 .sidebar-nqHbhN [aria-controls=advanced-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/bug.svg)
+    background-image:url(https:// .github.io/icons/bug.svg)
 }
 .sidebar-nqHbhN [aria-controls=activity-privacy-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/controller-off.svg)
+    background-image:url(https:// .github.io/icons/controller-off.svg)
 }
 .sidebar-nqHbhN [aria-controls=game-activity-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/games.svg)
+    background-image:url(https:// .github.io/icons/games.svg)
 }
 .sidebar-nqHbhN [aria-controls=overlay-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/aspect_ratio.svg)
+    background-image:url(https:// .github.io/icons/aspect_ratio.svg)
 }
 .sidebar-nqHbhN [aria-controls=changelog-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/history.svg)
+    background-image:url(https:// .github.io/icons/history.svg)
 }
 .sidebar-nqHbhN [aria-controls=hypesquad-online-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/hypesquad.svg)
+    background-image:url(https:// .github.io/icons/hypesquad.svg)
 }
 .sidebar-nqHbhN [aria-controls=overview-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/info.svg)
+    background-image:url(https:// .github.io/icons/info.svg)
 }
 .sidebar-nqHbhN [aria-controls=roles-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/flag.svg)
+    background-image:url(https:// .github.io/icons/flag.svg)
 }
 .sidebar-nqHbhN [aria-controls=emoji-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/emoji.svg)
+    background-image:url(https:// .github.io/icons/emoji.svg)
 }
 .sidebar-nqHbhN [aria-controls=stickers-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/sticker.svg)
+    background-image:url(https:// .github.io/icons/sticker.svg)
 }
 .sidebar-nqHbhN [aria-controls=moderation-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/security.svg)
+    background-image:url(https:// .github.io/icons/security.svg)
 }
 .sidebar-nqHbhN [aria-controls=guild_automod-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/robot.svg)
+    background-image:url(https:// .github.io/icons/robot.svg)
 }
 .sidebar-nqHbhN [aria-controls=audit_log-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/list.svg)
+    background-image:url(https:// .github.io/icons/list.svg)
 }
 .sidebar-nqHbhN [aria-controls=integrations-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/puzzle.svg)
+    background-image:url(https:// .github.io/icons/puzzle.svg)
 }
 .sidebar-nqHbhN [aria-controls=widget-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/widgets.svg)
+    background-image:url(https:// .github.io/icons/widgets.svg)
 }
 .sidebar-nqHbhN [aria-controls=guild_templates-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/website.svg)
+    background-image:url(https:// .github.io/icons/website.svg)
 }
 .sidebar-nqHbhN [aria-controls=vanity_url-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/link_plus.svg)
+    background-image:url(https:// .github.io/icons/link_plus.svg)
 }
 .sidebar-nqHbhN [aria-controls=community-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/people.svg)
+    background-image:url(https:// .github.io/icons/people.svg)
 }
 .sidebar-nqHbhN [aria-controls=analytics-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/insights.svg)
+    background-image:url(https:// .github.io/icons/insights.svg)
 }
 .sidebar-nqHbhN [aria-controls=partner-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/handshake.svg)
+    background-image:url(https:// .github.io/icons/handshake.svg)
 }
 .sidebar-nqHbhN [aria-controls=discovery-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/explore.svg)
+    background-image:url(https:// .github.io/icons/explore.svg)
 }
 .sidebar-nqHbhN [aria-controls=member_verification-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/person_search.svg)
+    background-image:url(https:// .github.io/icons/person_search.svg)
 }
 .sidebar-nqHbhN [aria-controls=community_welcome-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/waving_hand.svg)
+    background-image:url(https:// .github.io/icons/waving_hand.svg)
 }
 .sidebar-nqHbhN [aria-controls=guild_premium-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/server_boost.svg)
+    background-image:url(https:// .github.io/icons/server_boost.svg)
 }
 .sidebar-nqHbhN [aria-controls=members-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/group.svg)
+    background-image:url(https:// .github.io/icons/group.svg)
 }
 .sidebar-nqHbhN [aria-controls=instant_invites-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/person_add.svg)
+    background-image:url(https:// .github.io/icons/person_add.svg)
 }
 .sidebar-nqHbhN [aria-controls=bans-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/hammer.svg)
+    background-image:url(https:// .github.io/icons/hammer.svg)
 }
 .sidebar-nqHbhN [aria-controls=permissions-tab].item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/rule.svg)
+    background-image:url(https:// .github.io/icons/rule.svg)
 }
 .sidebar-nqHbhN [aria-controls=logout-tab].item-2GWPIy:before{
-    -webkit-mask:url(https://clearvision.github.io/icons/exit.svg);
-    mask:url(https://clearvision.github.io/icons/exit.svg)
+    -webkit-mask:url(https:// .github.io/icons/exit.svg);
+    mask:url(https:// .github.io/icons/exit.svg)
 }
 .sidebar-nqHbhN [aria-controls=delete-tab].item-2GWPIy:before{
-    -webkit-mask:url(https://clearvision.github.io/icons/delete.svg);
-    mask:url(https://clearvision.github.io/icons/delete.svg)
+    -webkit-mask:url(https:// .github.io/icons/delete.svg);
+    mask:url(https:// .github.io/icons/delete.svg)
 }
 .premiumLabel-3HPvdB>svg,.tabBarItemContainer-2HdIlr>svg,.icon-3FU6Ir,.side-2ur1Qk .textBadge-1fdDPJ{
     margin-right:15px
@@ -7985,19 +8071,19 @@ code{
     cursor:pointer
 }
 .sidebar-nqHbhN .bd-settings-tab.item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/betterdiscord.svg)
+    background-image:url(https:// .github.io/icons/betterdiscord.svg)
 }
 .sidebar-nqHbhN .bd-emotes-tab.item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/emote.svg)
+    background-image:url(https:// .github.io/icons/emote.svg)
 }
 .sidebar-nqHbhN .bd-customcss-tab.item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/code_braces.svg)
+    background-image:url(https:// .github.io/icons/code_braces.svg)
 }
 .sidebar-nqHbhN .bd-plugins-tab.item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/puzzle.svg)
+    background-image:url(https:// .github.io/icons/puzzle.svg)
 }
 .sidebar-nqHbhN .bd-themes-tab.item-2GWPIy:before{
-    background-image:url(https://clearvision.github.io/icons/palette.svg)
+    background-image:url(https:// .github.io/icons/palette.svg)
 }
 .bd-modal-wrapper .header{
     background-color:var(--backdrop-overlay)
